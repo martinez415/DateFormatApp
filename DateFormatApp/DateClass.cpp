@@ -26,5 +26,5 @@ string DateClass::MonthName() {
 // Print out to display date
 void DateClass::PrintMonth() {
 	// Call the MonthName() method to return the string representation of the month
-	cout << "You've entered: " << MonthName() << " " << Day << ", " << Year << endl;
+	cout << "You've entered: " << this->MonthName() << " " << this->Day << ", " << this->Year << endl;
 }
