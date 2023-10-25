@@ -1,7 +1,6 @@
 #pragma once
 #include <string>
 #include <iostream>
-#include <iomanip>
 using namespace std;
 
 class DateClass
@@ -13,7 +12,7 @@ private:
 	string MonthName();
 
 public:
-	DateClass(int m, int d, int y);
+	DateClass(int, int, int);
 	void PrintMonth();
 };
 
