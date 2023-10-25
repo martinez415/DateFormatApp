@@ -14,9 +14,8 @@ DateClass::DateClass(int m, int d, int y) {
 // Method to obtain string representation of Month
 string DateClass::MonthName() {
 	string months[12] = { "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" };
-	for (int x = 0; x < 12; x++) {
-		return months[Month - 1];
-	}
+	return months[Month - 1];
+	
 }
 
 // Print out to display date
