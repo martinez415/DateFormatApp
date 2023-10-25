@@ -1,16 +1,15 @@
 #include <string>
 #include <iostream>
-#include <iomanip>
 #include "DateClass.h";
 using namespace std;
 
 int main()
 { 
-    cout << "Date Format App\n================" << endl;
-
     int month;
     int day;
     int year;
+
+    cout << "Date Format App\n================" << endl;
 
     cout << "Enter the month as an integer: ";
     cin >> month;
